@@ -1,30 +1,58 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import axios from 'axios'
+import { onMounted, ref } from 'vue';
+
+const res = ref();
+
+const text = ref();
+
+const baseUrl = 'https://api.dify.ai/v1'
+
+const apiKey = 'app-X92eXCLkI6Z5y1oEvhM7RVwW'
+
+const headers = {
+  Authorization: `Bearer ${apiKey}`,
+  "Content-Type": "application/json",
+}
+
+const data = {
+  inputs: {
+    website_url: 'https://www.baidu.com',
+  },
+  response_mode: 'blocking',
+  user: 'workflow01',
+  files: null
+}
+
+const postDify = async () => {
+  res.value = await axios({
+    method: 'post',
+    url: `${baseUrl}/workflows/run`,
+    headers: headers,
+    data: data
+  });
+
+  text.value = res.value.data.data.outputs.text;
+}
+
+onMounted(async () => {
+  await postDify();
+})
+
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div class="main">
+    <div>{{ text }}</div>
   </div>
-  <HelloWorld msg="Vite + Vue + crx" />
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+#post {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+
 }
 </style>

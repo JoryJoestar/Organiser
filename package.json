@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "dify-client": "^2.2.0",
+    "axios": "^1.6.8",
     "vue": "^3.3.8"
   },
   "devDependencies": {

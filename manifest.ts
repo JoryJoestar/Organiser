@@ -5,12 +5,12 @@ export default defineManifest(async (env) => {
   // console.log("defineManifesttttt", env)
   return {
     manifest_version: 3,
-    name: 'mock input good',
-    description: 'Mock Input',
+    name: 'Bookmarks jory',
+    description: 'Bookmarks Test jory',
     version: packageJson.version,
     action: {
-      default_title: 'Default Title',
-      default_popup: 'index.html',
+      default_title: 'Click to open sidebar',
+      // default_popup: 'index.html',
       default_icon: {
         '32': 'emo.png',
         '72': 'emo.png',
@@ -18,12 +18,20 @@ export default defineManifest(async (env) => {
         '512': 'emo.png',
       },
     },
+    side_panel: {
+      "default_path": "index.html"
+    },
     content_scripts: [
       {
         matches: ['<all_urls>'],
         js: ['src/content-script.ts'],
         all_frames: true,
       },
+    ],
+    permissions: [
+      "bookmarks",
+      "tabs",
+      "sidePanel"
     ],
     background: {
       service_worker: 'src/background.ts',
