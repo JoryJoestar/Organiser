@@ -1,0 +1,260 @@
+{
+  "data": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "dateAdded": 1678503750101,
+              "id": "8",
+              "index": 0,
+              "parentId": "9",
+              "title": "百度一下，你就知道",
+              "url": "https://www.baidu.com/"
+            },
+            {
+              "dateAdded": 1678503844664,
+              "id": "11",
+              "index": 1,
+              "parentId": "9",
+              "title": "必应",
+              "url": "https://www.bing.com/?toWww=1&redig=42ABFDF5DC7C4B4DA8EC35F2A03D9E91"
+            }
+          ],
+          "dateAdded": 1678503760678,
+          "dateGroupModified": 1678503844664,
+          "id": "9",
+          "index": 0,
+          "parentId": "1",
+          "title": "搜索"
+        },
+        {
+          "children": [
+            {
+              "dateAdded": 1690260589447,
+              "dateLastUsed": 1700445621033,
+              "id": "19",
+              "index": 0,
+              "parentId": "20",
+              "title": "小红书 - 你的生活指南",
+              "url": "https://www.xiaohongshu.com/explore"
+            },
+            {
+              "dateAdded": 1690260752850,
+              "dateLastUsed": 1700563107993,
+              "id": "21",
+              "index": 1,
+              "parentId": "20",
+              "title": "抖音-记录美好生活",
+              "url": "https://www.douyin.com/user/self"
+            },
+            {
+              "dateAdded": 1678792350404,
+              "dateLastUsed": 1707316711113,
+              "id": "15",
+              "index": 2,
+              "parentId": "20",
+              "title": "创作中心 - 哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯~",
+              "url": "https://member.bilibili.com/platform/upload/video/frame?spm_id_from=333.1007.top_bar.upload"
+            }
+          ],
+          "dateAdded": 1690260600006,
+          "dateGroupModified": 1690261733302,
+          "id": "20",
+          "index": 1,
+          "parentId": "1",
+          "title": "自媒体"
+        },
+        {
+          "dateAdded": 1690526223270,
+          "id": "25",
+          "index": 2,
+          "parentId": "1",
+          "title": "",
+          "url": "https://www.bing.com/translator?to=ja&setlang=ja"
+        },
+        {
+          "dateAdded": 1678503719606,
+          "id": "7",
+          "index": 3,
+          "parentId": "1",
+          "title": "网易见外工作台",
+          "url": "https://jianwai.youdao.com/"
+        },
+        {
+          "dateAdded": 1678511516020,
+          "id": "13",
+          "index": 4,
+          "parentId": "1",
+          "title": "Chrome 应用商店 - 扩展程序",
+          "url": "https://chrome.google.com/webstore/category/extensions?hl=zh-CN"
+        },
+        {
+          "dateAdded": 1679021613350,
+          "dateLastUsed": 1702870809553,
+          "id": "17",
+          "index": 5,
+          "parentId": "1",
+          "title": "ChatGPT | OpenAI",
+          "url": "https://chat.openai.com/auth/login?next=/chat"
+        },
+        {
+          "dateAdded": 1690439357506,
+          "dateLastUsed": 1699236116258,
+          "id": "23",
+          "index": 6,
+          "parentId": "1",
+          "title": "ChatGPT Next Web",
+          "url": "https://chat.deer404.top/#/chat"
+        },
+        {
+          "dateAdded": 1690631305067,
+          "dateLastUsed": 1692786980165,
+          "id": "27",
+          "index": 7,
+          "parentId": "1",
+          "title": "MinisterAI - Free online AI Art Generator | Stable Diffusion",
+          "url": "https://mst.ai/tools/ModelList"
+        },
+        {
+          "dateAdded": 1690643961982,
+          "id": "30",
+          "index": 8,
+          "parentId": "1",
+          "title": "Hugging Face – The AI community building the future.",
+          "url": "https://huggingface.co/"
+        },
+        {
+          "dateAdded": 1690644423858,
+          "dateLastUsed": 1691678333903,
+          "id": "31",
+          "index": 9,
+          "parentId": "1",
+          "title": "Overview - OpenAI API",
+          "url": "https://platform.openai.com/"
+        },
+        {
+          "dateAdded": 1690649273020,
+          "dateLastUsed": 1692340210284,
+          "id": "32",
+          "index": 10,
+          "parentId": "1",
+          "title": "",
+          "url": "https://www.bing.com/translator?ref=TThis&from=&to=en&isTTRefreshQuery=1"
+        },
+        {
+          "dateAdded": 1690650223853,
+          "dateLastUsed": 1691461585790,
+          "id": "33",
+          "index": 11,
+          "parentId": "1",
+          "title": "Lexica",
+          "url": "https://lexica.art/"
+        },
+        {
+          "dateAdded": 1690631307919,
+          "dateLastUsed": 1702481638538,
+          "id": "28",
+          "index": 12,
+          "parentId": "1",
+          "title": "Civitai | Stable Diffusion models, embeddings, LoRAs and more",
+          "url": "https://civitai.com/"
+        },
+        {
+          "dateAdded": 1690772599326,
+          "dateLastUsed": 1691461576995,
+          "id": "35",
+          "index": 13,
+          "parentId": "1",
+          "title": "炼丹阁 - 官网,专业全面的模型平台社区,高手AI作者都在这∩•ﻌ•⊃",
+          "url": "https://www.liandange.com/community/"
+        },
+        {
+          "dateAdded": 1690772657172,
+          "dateLastUsed": 1699846026842,
+          "id": "36",
+          "index": 14,
+          "parentId": "1",
+          "title": "Stable Diffusion 法术解析",
+          "url": "https://spell.novelai.dev/"
+        },
+        {
+          "dateAdded": 1690809381359,
+          "dateLastUsed": 1700636765459,
+          "id": "38",
+          "index": 15,
+          "parentId": "1",
+          "title": "RisuAI",
+          "url": "https://risuai.xyz/"
+        },
+        {
+          "dateAdded": 1690853606296,
+          "dateLastUsed": 1700636792461,
+          "id": "40",
+          "index": 16,
+          "parentId": "1",
+          "title": "Anthropic \\ Claude 2",
+          "url": "https://www.anthropic.com/index/claude-2"
+        },
+        {
+          "dateAdded": 1690951935365,
+          "dateLastUsed": 1691025831735,
+          "id": "42",
+          "index": 17,
+          "parentId": "1",
+          "title": "雀魂麻将",
+          "url": "https://game.maj-soul.com/1/"
+        },
+        {
+          "dateAdded": 1691155247448,
+          "dateLastUsed": 1692093307656,
+          "id": "44",
+          "index": 18,
+          "parentId": "1",
+          "title": "LiblibAI·哩布哩布AI-中国领先原创AI模型分享社区",
+          "url": "https://www.liblibai.com/?sourceId=000012"
+        },
+        {
+          "dateAdded": 1693154332826,
+          "id": "46",
+          "index": 19,
+          "parentId": "1",
+          "title": "Reddit - Dive into anything",
+          "url": "https://www.reddit.com/"
+        }
+      ],
+      "dateAdded": 1678235385191,
+      "dateGroupModified": 1712851196730,
+      "id": "1",
+      "index": 0,
+      "parentId": "0",
+      "title": "书签栏"
+    },
+    {
+      "children": [
+        {
+          "dateAdded": 1697616462191,
+          "id": "48",
+          "index": 0,
+          "parentId": "2",
+          "title": "AiShort(ChatGPT Shortcut)-简单易用的 AI 快捷指令表，让生产力倍增！ | AiShort(ChatGPT Shortcut)-AI Prompt Management,Productivity Tool",
+          "url": "https://www.aishort.top/?name=%E8%8B%B1%E8%AF%AD"
+        },
+        {
+          "dateAdded": 1699680445792,
+          "id": "50",
+          "index": 1,
+          "parentId": "2",
+          "title": "抖音创作服务平台",
+          "url": "https://creator.douyin.com/creator-micro/content/publish?enter_from=publish_page"
+        }
+      ],
+      "dateAdded": 1678235385191,
+      "dateGroupModified": 1699680445792,
+      "id": "2",
+      "index": 1,
+      "parentId": "0",
+      "title": "其他书签"
+    }
+  ]
+}

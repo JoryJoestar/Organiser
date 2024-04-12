@@ -15,24 +15,41 @@ onMounted(async () => {
 
   bookmarks.value = getBookmarks();
 
-  console.log(bookmarks, res)
+
+
+  console.log(bookmarks.value, res)
   text.value = res.data.data.outputs.text;
 })
 
 </script>
 
 <template>
-  <div class="main">
-    <div>{{ text }}</div>
-  </div>
+  <header>
+    <nav>
+      <div id="history">历史</div>
+    </nav>
+  </header>
+  <section>
+    <main></main>
+  </section>
+  <footer>
+    <div class="copyright"></div>
+  </footer>
 </template>
 
-<style scoped>
-#post {
-  width: 100px;
-  height: 100px;
-  background-color: black;
-  color: white;
+<style>
+@import './assets/reset.css';
 
+#app {
+  margin: 0;
+  padding: .5rem;
+  text-align: start;
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+}
+
+header nav {
+  width: 100%;
 }
 </style>
