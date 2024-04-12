@@ -5,8 +5,9 @@ export default defineManifest(async (env) => {
   // console.log("defineManifesttttt", env)
   return {
     manifest_version: 3,
-    name: 'Bookmarks jory',
-    description: 'Bookmarks Test jory',
+    name: 'Organiser',
+    description: 'Auto organize bookmarks',
+    author:'Jory',
     version: packageJson.version,
     action: {
       default_title: 'Click to open sidebar',
@@ -24,7 +25,7 @@ export default defineManifest(async (env) => {
     content_scripts: [
       {
         matches: ['<all_urls>'],
-        js: ['src/content-script.ts'],
+        js: ['src/core/content-script.ts'],
         all_frames: true,
       },
     ],
@@ -34,7 +35,7 @@ export default defineManifest(async (env) => {
       "sidePanel"
     ],
     background: {
-      service_worker: 'src/background.ts',
+      service_worker: 'src/core/background.ts',
     },
   }
 })
