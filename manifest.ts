@@ -7,7 +7,7 @@ export default defineManifest(async (env) => {
     manifest_version: 3,
     name: 'Organiser',
     description: 'Auto organize bookmarks',
-    author:'Jory',
+    author: 'Jory',
     version: packageJson.version,
     action: {
       default_title: 'Click to open sidebar',
